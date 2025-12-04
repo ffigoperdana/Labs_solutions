@@ -38,7 +38,7 @@ done
 
 cd ~/user-authentication-with-iap/2-HelloUser
 
-sed -i 's/python37/python39/g' app.yaml
+sed -i 's/python37/python313/g' app.yaml
 
 deploy_function() {
   yes | gcloud app deploy
@@ -58,7 +58,7 @@ done
 
 cd ~/user-authentication-with-iap/3-HelloVerifiedUser
 
-sed -i 's/python37/python39/g' app.yaml
+sed -i 's/python37/python313/g' app.yaml
 
 deploy_function() {
   yes | gcloud app deploy
